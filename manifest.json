@@ -22,11 +22,11 @@
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "images/ecplise168.png",
+    "src": "images/eclipse168.png",
     "sizes": "168x168",
     "type": "image/png"
   }, {
-    "src": "images/ecplise.png",
+    "src": "images/eclipse192.png",
     "sizes": "192x192",
     "type": "image/png"
   }],
