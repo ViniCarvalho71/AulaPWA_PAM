@@ -3,13 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>PWA</title>
+    <title>TarefaPWA</title>
    <link rel="favicon" href="images/eclipse72.png">
     <link rel="manifest" href="./manifest.json">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
-   <h1>PWA</h1>
+   <div class="container-fluid">
+     <div class="row centralizar">
+       <div class="col-12">
+         <h1 id="h1">Qual seu período favorito do dia?</h1>
+       </div>
+     </div>
+     <div class="row centralizar">
+       <div class="col-12">
+         <img src="images/1.jpg" alt="" id="img" class="img-fluid">
+       </div>
+     </div>
+     <div class="row centralizar mt-3 ">
+      <div class="col">
+        <button class="btn btn-dark" onclick="prev()">Prev</button>
+
+        <button class="btn btn-dark" onclick="next()">Next</button>
+      </div>
+    </div>
+    <div class="row centralizar mt-5">
+      <div class="col">
+        <button class="btn btn-dark" onclick="cor()">Este período</button> 
+      </div>
+    </div>
+   </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="script.js"></script>
+    <script src="carrossel.js"></script>
   </body>
 </html>
